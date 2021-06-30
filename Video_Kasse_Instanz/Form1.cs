@@ -51,11 +51,16 @@ namespace Video_Kasse_Instanz
 
         private void bTest_Click(object sender, EventArgs e)
         {
-            Student student = new Student();
+            //Student student = new Student();
 
-            MessageBox.Show(student.GetName());
-            student.SetName( "Peter");
-            MessageBox.Show(student.GetName());
+            //MessageBox.Show(student.GetName());
+            //student.SetName( "Peter");
+            //MessageBox.Show(student.GetName());
+
+
+
+            
         }
+        
     }
 }
