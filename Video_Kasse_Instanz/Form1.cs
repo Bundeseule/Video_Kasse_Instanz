@@ -61,6 +61,8 @@ namespace Video_Kasse_Instanz
 
             int number1, number2, result;
             double dNumber1, dNumber2, dResult;
+            byte bNumber1, bNumber2, bResult;
+            int iResult;
 
             number1 = 5;
             number2 = 200; 
@@ -73,6 +75,11 @@ namespace Video_Kasse_Instanz
             dResult = dNumber1 * dNumber2;
 
             MessageBox.Show(dResult.ToString());
+
+            bNumber1 = 100;
+            bNumber2 = 0b00000010;
+            //bResult = bNumber1 + bNumber2; this isnt allowed by the compailer, cause the number could be over 255
+            iResult = bNumber1 * bNumber2;
         }
         
     }
