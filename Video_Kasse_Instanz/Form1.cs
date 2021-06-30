@@ -58,30 +58,33 @@ namespace Video_Kasse_Instanz
                 //student.SetName( "Peter");
                 //MessageBox.Show(student.GetName());
             }
-
-            int number1, number2, result;
-            double dNumber1, dNumber2, dResult;
-            byte bNumber1, bNumber2, bResult;
-            int iResult;
-
-            number1 = 5;
-            number2 = 200; 
-            result = number1 * number2;
-
-            MessageBox.Show(result.ToString());
-
-            dNumber1 = 250.3;
-            dNumber2 = 3.0;
-            dResult = dNumber1 * dNumber2;
-
-            MessageBox.Show(dResult.ToString());
-
-            bNumber1 = 100;
-            bNumber2 = 0b00000010;
-            //bResult = bNumber1 + bNumber2; this isn't allowed by the compiler, cause the number could be over 255
-            iResult = bNumber1 * bNumber2;
-
-            MessageBox.Show(iResult.ToString());
+            {
+                /*
+                            int number1, number2, result;
+                            double dNumber1, dNumber2, dResult;
+                            byte bNumber1, bNumber2, bResult;
+                            int iResult;
+                
+                            number1 = 5;
+                            number2 = 200; 
+                            result = number1 * number2;
+                
+                            MessageBox.Show(result.ToString());
+                
+                            dNumber1 = 250.3;
+                            dNumber2 = 3.0;
+                            dResult = dNumber1 * dNumber2;
+                
+                            MessageBox.Show(dResult.ToString());
+                
+                            bNumber1 = 100;
+                            bNumber2 = 0b00000010;
+                            //bResult = bNumber1 + bNumber2; this isn't allowed by the compiler, cause the number could be over 255
+                            iResult = bNumber1 * bNumber2;
+                
+                            MessageBox.Show(iResult.ToString());
+                            */
+            }
         }
         
     }
