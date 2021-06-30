@@ -80,6 +80,8 @@ namespace Video_Kasse_Instanz
             bNumber2 = 0b00000010;
             //bResult = bNumber1 + bNumber2; this isnt allowed by the compailer, cause the number could be over 255
             iResult = bNumber1 * bNumber2;
+
+            MessageBox.Show(iResult.ToString());
         }
         
     }
