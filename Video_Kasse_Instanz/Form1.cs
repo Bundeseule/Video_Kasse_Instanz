@@ -60,12 +60,19 @@ namespace Video_Kasse_Instanz
             }
 
             int number1, number2, result;
+            double dNumber1, dNumber2, dResult;
 
             number1 = 5;
-            number2 = 200;
+            number2 = 200; 
             result = number1 * number2;
 
             MessageBox.Show(result.ToString());
+
+            dNumber1 = 250.3;
+            dNumber2 = 3.0;
+            dResult = dNumber1 * dNumber2;
+
+            MessageBox.Show(dResult.ToString());
         }
         
     }
