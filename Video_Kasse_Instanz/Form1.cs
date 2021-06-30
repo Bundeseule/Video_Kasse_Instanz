@@ -85,7 +85,7 @@ namespace Video_Kasse_Instanz
                             MessageBox.Show(iResult.ToString());
                             */
             }
-
+            { /*
             char letter1, letter2;
             string string1, string2, stringResult;
 
@@ -101,6 +101,11 @@ namespace Video_Kasse_Instanz
             stringResult = String.Concat(string1, string2);
 
             MessageBox.Show(stringResult);
+            */
+
+            }
+
+
         }
         
     }
