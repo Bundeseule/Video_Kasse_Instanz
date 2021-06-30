@@ -41,6 +41,7 @@ namespace Video_Kasse_Instanz
             {
                 name = uName;
             }
+
         }
 
         private void bClose_Click(object sender, EventArgs e)
