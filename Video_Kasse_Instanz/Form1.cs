@@ -95,7 +95,7 @@ namespace Video_Kasse_Instanz
             MessageBox.Show(letter1.ToString());
             MessageBox.Show(letter2.ToString());
 
-            string1 = "TestString 1/n";
+            string1 = "TestString 1";
             string2 = "TestString 2";
 
             stringResult = String.Concat(string1, string2);
