@@ -36,6 +36,21 @@ namespace Video_Kasse_Instanz
             {
                 return name;
             }
+
+            public void SetName(string uName)
+            {
+                name = uName;
+            }
+        }
+
+        private void bClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bTest_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
