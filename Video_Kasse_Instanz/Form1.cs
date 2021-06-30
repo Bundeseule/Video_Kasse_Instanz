@@ -28,7 +28,7 @@ namespace Video_Kasse_Instanz
 
             public Student()
             {
-                MessageBox.Show("Konstruktor der Klasse Student wird aufgerufen");
+                MessageBox.Show("constructor of class Student gets started");
                 name = "Hans";
             }
 
