@@ -85,6 +85,14 @@ namespace Video_Kasse_Instanz
                             MessageBox.Show(iResult.ToString());
                             */
             }
+
+            char letter1, letter2;
+
+            letter1 = 'A';
+            letter2 = (char) 66;
+
+            MessageBox.Show(letter1.ToString());
+            MessageBox.Show(letter2.ToString());
         }
         
     }
