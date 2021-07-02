@@ -181,6 +181,7 @@ namespace Video_Kasse_Instanz
 
             iNumber = 5;
 
+            /*
             iResult = 1; // initialisieren
             i = 1; // initialisieren
 
@@ -188,6 +189,13 @@ namespace Video_Kasse_Instanz
             {
                 iResult = iResult * i; // iResult *= i;
                 i++; // i = i + 1;
+            }
+
+            */
+
+            for ()
+            {
+
             }
 
             MessageBox.Show(iResult.ToString());
