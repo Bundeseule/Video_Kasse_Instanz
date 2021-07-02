@@ -105,7 +105,22 @@ namespace Video_Kasse_Instanz
 
             }
 
+            double dnumber1, dnumber2, dnumber3;
+            string sZeile;
 
+            dnumber1 = 123.34567;
+            dnumber2 = dnumber1 + 100.0;
+            dnumber3 = 567.89012;
+
+            sZeile = dnumber1.ToString( "F8");
+
+            //rtbAusgabe.Text = sZeile;
+            rtbAusgabe.AppendText(sZeile);
+
+            string str = Convert.ToString(8, 2);
+            MessageBox.Show(str);
+
+            
         }
         
     }
