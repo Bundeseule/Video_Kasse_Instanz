@@ -124,12 +124,14 @@ namespace Video_Kasse_Instanz
 
             double dValue;
             string sZeile;
+            bool boolCheck;
 
             sZeile = "123,5";
 
             //dValue = double.Parse(sZeile);
+            boolCheck = double.TryParse(sZeile, out dValue);
 
-
+            //MessageBox.Show(dValue.ToString());
             MessageBox.Show(dValue.ToString());
 
         }
