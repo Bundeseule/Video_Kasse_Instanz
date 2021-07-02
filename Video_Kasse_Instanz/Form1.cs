@@ -127,7 +127,8 @@ namespace Video_Kasse_Instanz
 
             sZeile = "123,5";
 
-            dValue = double.Parse(sZeile);
+            //dValue = double.Parse(sZeile);
+
 
             MessageBox.Show(dValue.ToString());
 
