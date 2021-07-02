@@ -192,10 +192,10 @@ namespace Video_Kasse_Instanz
             }
 
             */
-
-            for ()
+            iResult = 1;
+            for (i=1; i<=5; i++)
             {
-
+                iResult *= i;
             }
 
             MessageBox.Show(iResult.ToString());
