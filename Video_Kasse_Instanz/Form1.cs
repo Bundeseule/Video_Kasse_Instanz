@@ -177,7 +177,20 @@ namespace Video_Kasse_Instanz
 
         private void bFakultaet_Click(object sender, EventArgs e)
         {
+            int iResult, iNumber, i;
 
+            iNumber = 5;
+
+            iResult = 1; // initialisieren
+            i = 1; // initialisieren
+
+            while (i <= 5)
+            {
+                iResult = iResult * i; // iResult *= i;
+                i++; // i = i + 1;
+            }
+
+            MessageBox.Show(iResult.ToString());
         }
     }
 }
