@@ -149,7 +149,25 @@ namespace Video_Kasse_Instanz
 
             }
 
+            double dVal;
+            string zeile, msgStr;
+            bool ok;
 
+            zeile = tbEingabe.Text;
+
+            ok = double.TryParse(zeile, out dVal);
+
+            if (ok)
+            {
+                if (dVal < 0.0)
+                    msgStr = String.Format("The parsed number is {0}, it is smaller than zero", dVal);
+                else if (dVal == 0.0)
+                    msgStr = String.Format("The parsed number is {0}, it is exactly zero", dVal);
+                else
+                {
+                    msgStr = String.Format("The parsed Number is {0}, it is bigger than zero", dVal);
+                }
+            }
         }
 
         private void rtbAusgabe_TextChanged(object sender, EventArgs e)
