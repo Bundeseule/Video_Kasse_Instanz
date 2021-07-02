@@ -123,17 +123,29 @@ namespace Video_Kasse_Instanz
             }
 
             double dValue;
-            string sZeile;
+            string sZeile, msgStr;
             bool boolCheck;
 
             sZeile = tbEingabe.Text;
 
-            //dValue = double.Parse(sZeile);
-            //boolCheck = double.TryParse(sZeile, out dValue);
+            {
+                //dValue = double.Parse(sZeile);
+                boolCheck = double.TryParse(sZeile, out dValue);
 
-            //MessageBox.Show(dValue.ToString());
-            //MessageBox.Show(dValue.ToString());
+                //MessageBox.Show(dValue.ToString());
+                //MessageBox.Show(dValue.ToString());
+            }
 
+            if (boolCheck)
+            {
+                msgStr = String.Format("The Parsetry is BoolCheck {0} the parsed number is {1:00000.00000}", boolCheck, dValue);
+                MessageBox.Show(msgStr);
+            }
+            else
+            {
+                MessageBox.Show("ERROR WITH INPUT!!!");
+           
+            }
         }
 
         private void rtbAusgabe_TextChanged(object sender, EventArgs e)
