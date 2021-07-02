@@ -122,7 +122,12 @@ namespace Video_Kasse_Instanz
                 */
             }
 
+            double dValue;
+            string sZeile;
 
+            sZeile = "123.5";
+
+            dValue = double.Parse(sZeile);
 
         }
         
