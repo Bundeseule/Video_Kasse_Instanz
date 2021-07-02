@@ -126,15 +126,19 @@ namespace Video_Kasse_Instanz
             string sZeile;
             bool boolCheck;
 
-            sZeile = "123,5";
+            sZeile = tbEingabe.Text;
 
             //dValue = double.Parse(sZeile);
-            boolCheck = double.TryParse(sZeile, out dValue);
+            //boolCheck = double.TryParse(sZeile, out dValue);
 
             //MessageBox.Show(dValue.ToString());
-            MessageBox.Show(dValue.ToString());
+            //MessageBox.Show(dValue.ToString());
 
         }
-        
+
+        private void rtbAusgabe_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
