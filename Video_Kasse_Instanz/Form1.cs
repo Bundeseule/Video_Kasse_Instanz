@@ -174,5 +174,10 @@ namespace Video_Kasse_Instanz
         {
 
         }
+
+        private void bFakultaet_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
